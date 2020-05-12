@@ -20,6 +20,8 @@
 
 <!-- Link the main.css stylesheet -->
 <link href="../css/main.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 <!-- OPTIONAL: Google Fonts (don't forget to edit main.css also) -->
 <!--
@@ -40,6 +42,44 @@
     <a href="../index.html#gallery">Gallery</a>
     <a href="#contact">Contact</a>
   </div>
+  <div class="sidenav">
+    <a href="../index.html">Home</a>
+    <a href="../index.html#about">About</a>
+    <a href="../index.html#education">Education</a>
+    <a href="../index.html#work">Work</a>
+    <a href="../index.html#skills">Skills</a> 
+    <a href="./bohnet-diagrams.html" target="_blank">Diagrams</a>
+
+    <button class="dropdown-btn">Presentations 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-container">
+      <a href="../web-420/bohnet-rest.html">REST</a>
+      <a href="../web-420/bohnet-restful-apis.html">RESTful APIs</a>
+      <a href="#">SOAP</a>
+    </div>
+    <a href="../index.html#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <script>
+    /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+    
+    for (i = 0; i < dropdown.length; i++) {
+      dropdown[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var dropdownContent = this.nextElementSibling;
+      if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+      } else {
+      dropdownContent.style.display = "block";
+      }
+      });
+    }
+    </script>
+  
+
    <div class="header" id="headerwrap">
      <div class="container">
        <div class="row centered">
