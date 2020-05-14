@@ -1,0 +1,36 @@
+{
+"publisher" : {
+
+    "name": "Joseph",
+    "code": "Haydn",
+    "address": "123 Main Anytown, USA ",
+
+    "book" : [
+        {
+        "isbn": "YB123W",
+        "name": "The Best Book Ever",
+        "price": "24.99",
+        "author" : {
+            "first_name": "Leroy",
+            "last_name": "Brown",
+            "phone": "712.323.1234",
+            "email": "lbrown@yahoo.com"
+        }
+    },
+    {
+            "isbn": "MW1238",
+            "name": "The Worst Book Ever",
+            "price": "4.99",
+            "author" : {
+                "first_name": "Janice",
+                "last_name": "Stripe",
+                "phone": "402.544.1111",
+                "email": "jstripe@aol.com"
+            }
+    
+        }
+    ]   
+    
+    }
+}
+

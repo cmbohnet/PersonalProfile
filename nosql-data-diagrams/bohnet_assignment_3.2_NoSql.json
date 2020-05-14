@@ -1,0 +1,45 @@
+{
+    "user" : 
+        {
+        "_id": 1,
+        "name": "Sam",
+        "link_user_role" : [
+            {
+                "_id": "123",
+                "role": [
+                    {
+                        "name": "Admin",
+                        "link_role_permission" : [
+                        {
+                            "_id": 5,
+                            "permission": "Read"
+                        },
+                        {
+                            "_id": 10,
+                            "permission": "Write"
+                        }
+                        ]
+                    }
+                    ]
+            },
+            {
+                "_id": "456",
+                "role": 
+                    {
+                        "name": "Developer",
+                        "link_role_permission" : [
+                        {
+                            "_id": 5,
+                            "permission": "Read"
+                        },
+                        {
+                            "_id": 15,
+                            "permission": "Update"
+                        }
+                        ]
+                    }                   
+            }
+            ]
+        }        
+}
+
