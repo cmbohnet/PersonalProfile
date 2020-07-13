@@ -3,9 +3,11 @@
 ; Title: Microservices Presentations
 ; Author: Chris Bohnet
 ; Date:  17 June 2020
-; Modified By:
+; Modified By: Chris Bohnet
 ; Description: Microservices Presentations
-; 
+; Modifications:
+; 6/23/20 - Added OAuth Security presentation
+; 7/13/20 - Added devOps presentation
 ============================================
 
 -->
@@ -51,6 +53,8 @@
       <a href="./bohnet-hypermedia-design.html">Hypermedia Design</a>
       <a href="./bohnet-soa.html">SOA ESB</a>
       <a href="./bohnet-microservices.html">Microservices</a>
+      <a href="./bohnet-oauth-security.html">OAuth Security</a>
+      <a href="../web-430/bohnet-devOps.html">devOps</a>
     </div>
     <a href="../index.html#gallery">Gallery</a>
     <a href="#contact">Contact</a>
@@ -60,7 +64,7 @@
     var dropdown = document.getElementsByClassName("dropdown-btn");
     var i;
     
-    for (i = 0; i < dropdown.length; i++) {
+    for (i = 0; i < dropdown.length; i++) {0
       dropdown[i].addEventListener("click", function() {
       this.classList.toggle("active");
       var dropdownContent = this.nextElementSibling;
@@ -87,11 +91,10 @@
      </div><!--/.container-->
    </div><!--/.#headerwrap-->
 <div class="col-8">
-
+<!---
+  <div class="col-nottry8" style="background: #2c3e50;">
+  -->
  <section id="resume" name="resume"></section>
-
-
-
 
  <!-- PRESENTATIONS SECTION -->
   <div class="container desc">
@@ -102,7 +105,7 @@
   </div> -->
 
 
-  <div class="row">
+  <div class="row"">
     <div class="col-md-3 col-lg-offset-1">   
     <div class="thumbnail">
       <video controls autoplay reload="non" style="width:1000px;">

@@ -6,7 +6,6 @@
 ; Modified By:
 ; Description: Personal Profile - Interactive Resume
 ============================================
-
 */
 
 body {
@@ -30,7 +29,6 @@ body {
   overflow-x: hidden;
   padding: 8px 0;
 }
-
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
@@ -38,7 +36,6 @@ body {
   color: #2196F3;
   display: block;
 }
-
 .sidenav a:hover {
   color: #b57edc ;
 }
@@ -441,4 +438,3 @@ sm {
   -o-animation-name: fadeInUp;
   animation-name: fadeInUp;
   }
-
